@@ -9,9 +9,6 @@ courses: { compsci: {week: 15} }
 ---
 
 
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,6 +20,9 @@ courses: { compsci: {week: 15} }
             width: 200px;
             height: 200px;
             border: 1px solid #000;
+        }
+        #colorText {
+            margin-top: 10px;
         }
     </style>
     <script>
@@ -42,7 +42,7 @@ courses: { compsci: {week: 15} }
             var greenBinary = decimalToBinary(greenValue);
             var blueBinary = decimalToBinary(blueValue);
             // display binary output
-            document.getElementById("result").innerHTML = `
+            document.getElementById("colorText").innerHTML = `
                 <p>Red: ${redBinary}</p>
                 <p>Green: ${greenBinary}</p>
                 <p>Blue: ${blueBinary}</p>
@@ -71,6 +71,6 @@ courses: { compsci: {week: 15} }
         <input type="submit" value="Submit">
     </form>
     <div id="result"></div>
-
+    <div id="colorText"></div>
 </body>
 </html>
