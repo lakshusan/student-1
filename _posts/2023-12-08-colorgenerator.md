@@ -1,7 +1,7 @@
 ---
 toc: false
 comments: true
-layout: base
+layout: post
 title: Color Generator
 description: Color Generator
 courses: {compsci: {week: 14}}
