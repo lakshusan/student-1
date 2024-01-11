@@ -1,14 +1,3 @@
----
-toc: false
-comments: true
-layout: post
-title: cpt warmup - color generator
-description: cpt js code opt 2
-type: plans
-courses: { compsci: {week: 15} }
----
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
