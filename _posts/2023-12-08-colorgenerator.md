@@ -103,11 +103,4 @@ type: tangibles
 - <a href="https://github.com/trevorhuang1/cpt_warmup/commit/e7fc72d08a77e54c11d55395bd2c14881b9efd5c">color result separate</a>
 - <a href="https://github.com/trevorhuang1/cpt_warmup/commit/a9aa10d3a696960b662604dc98f4ea624c7f5fe5">sample color input</a>
 
-<script src="https://utteranc.es/client.js"
-        repo="trevorhuang1/cpt_warmup"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
