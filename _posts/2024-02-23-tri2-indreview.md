@@ -30,7 +30,7 @@ Our game is a little spin on the existing game "Little Alchemy". The idea of the
 
 # Requirements and Fulfillments
 
-## Program Code
+## Program Code (Shop feature)
 
 |  Requirement |   Usage    |
 |-----------------|---------------------------------------------|
