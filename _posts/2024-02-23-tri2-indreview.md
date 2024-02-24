@@ -18,6 +18,8 @@ Our game is a little spin on the existing game "Little Alchemy". The idea of the
 - Leaderboard - Orders the users with most points to least points
 - Trading - Allows exchanging ingredients and recipes with friends
 
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1211393508448010312/image.png?ex=65ee091f&is=65db941f&hm=72eebb2bf2e7edf073a8d750049b80d3828c05e02d72a49c3dcba722739d19e6&">
+
 # Instructions
 
 1. Users will start by registering their account to authorize access to the game
@@ -45,8 +47,11 @@ Our game is a little spin on the existing game "Little Alchemy". The idea of the
 
 The video covers my feature, which is the shop. The shop allows a user to buy ingredients past the default ones they start with. Each item costs a certain amount of points, which is deducted from the user's point balance when they purchase the item. The item appends to the 'items' list in the database, changing the user's inventory.
 
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1211393748517388288/image.png?ex=65ee0958&is=65db9458&hm=2a69acfec011bc2e5ca950a0ba3ee4a8c9e3b7d7f392669836855399e1697d66&">
+
 ### What's Included:
 - Shop feature with console view of action
 - Show database change (items list, points)
 - Show inventory before and after purchase
+- Follows all requirements and restrictions of Collegeboard
 - [Link to Video](https://drive.google.com/file/d/1L2Y1-pW3vP95EL5fy9cWuA2hVlr3mTmi/view?usp=sharing)
