@@ -43,6 +43,8 @@ Our game is a little spin on the existing game "Little Alchemy". The idea of the
 
 ## Video Overview
 
+The video covers my feature, which is the shop. The shop allows a user to buy ingredients past the default ones they start with. Each item costs a certain amount of points, which is deducted from the user's point balance when they purchase the item. The item appends to the 'items' list in the database, changing the user's inventory.
+
 ### What's Included:
 - Shop feature with console view of action
 - Show database change (items list, points)
