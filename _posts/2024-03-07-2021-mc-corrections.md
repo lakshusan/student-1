@@ -40,14 +40,21 @@ One of my answers was correct, but the other answer I chose is impossible, since
 # Popcorn Hacks
 
 1. Binary bit overflow
+
 When there are 8 bits, the maximum number you can represent in binary is 255. Is one more is added to get 256, it is an overflow, so all the digits reset to zero. This is because 256 requires a 9th bit which is unavailable.
 
 2. Making RGB standard colors
+
 Each color in R, G, and B are represented in numbers between 0 and 255, since colors are organized with an 8-bit sequence. Each color is represented by different binary values, and they are combined to make different colors. Pure red is (255, 0, 0), pure green is (0, 255, 0), and pure blue is (0, 0, 255). I liked this subject since it is similar to my CPT warmup project, which was a random color generator.
 
 3. Concatenation options
+
 animal = " magic"[0:6]
+
 animal = " not"[0:3] + animal
+
 animal = "it's " + animal
+
 print(animal)
+
 output would be "it's not magic"
