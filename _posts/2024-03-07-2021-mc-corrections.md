@@ -58,3 +58,7 @@ animal = "it's " + animal
 print(animal)
 
 output would be "it's not magic"
+
+# Summary
+
+Overall, I did slightly better than the previous Collegeboard MC, though I believe I would have done better with more time. I was able to finish it before 3:45 (on a time crunch). I hope to keep practicing in order to do well on the AP exam.
