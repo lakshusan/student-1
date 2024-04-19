@@ -75,3 +75,30 @@ Deletes user (admin only) and removes frmo database
 
 ## Frontend
 
+GET, UPDATE, and POST with JSON responses
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230880307906084895/image.png?ex=6634ed9e&is=6622789e&hm=949a4af988a30c0159f5f190277a5d2dd69cc57ee92b5b4afb8147fe228242a8&">
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230880478303621120/image.png?ex=6634edc6&is=662278c6&hm=68d62e3cf5169235b46e19c5dd1f875cff5fba158696926a8cc4656590fc7530&">
+
+GET with formatted data
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230883590536040478/image.png?ex=6634f0ac&is=66227bac&hm=46aefde22a7dde5bf7d21ac130234c016500383ed6b5956a58329408b1bc268d&">
+
+Fetch and Iteration
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885357801963573/image.png?ex=6623ced2&is=66227d52&hm=ee908c2ae75833f818d189f2dc099955686519e3aa8660ced7ad4d0458b9b51e&">
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230884790115373126/image.png?ex=6634f1ca&is=66227cca&hm=c8d1a72cab957e69e74dad748c7ca9837afe342b659614643531d664373bd883&">
+
+POST Demo Success and Failure
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=6623cf55&is=66227dd5&hm=c481ec597825bc6b7d4d8c317f1f58fe013bc5bbc5e1edf355fa8c5d2a7321e9&">
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885958044356670/image.png?ex=6634f2e1&is=66227de1&hm=1a5d072819f0d53f83d776ce7f765d1ce0e3ef5e2d16f48017c4149b6667b25d&">
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230887050602090558/image.png?ex=6634f3e5&is=66227ee5&hm=a04ec0219ef3f8142de95f073a41c415c6c6bfdf8b3e8d2d6a8de58194f8ce17&">
+
+## Algorithm Analysis
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=6623d244&is=662280c4&hm=153e382e938781b48d087da5d95021d01d62baa3dc3f85349cdfc1d9e7600dd0&">
