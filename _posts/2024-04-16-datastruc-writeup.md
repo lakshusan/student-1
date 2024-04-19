@@ -8,6 +8,12 @@ type: tangibles
 courses: { compsci: {week: 30} }
 ---
 
+# Introdution
+
+I used my CPT project, "Let 'Em Cook" to demonstrate different functions using Lists and Dictionaries, API and JSON, and different CRUD commands. The overview of our project is based on the existing game, "Little Alchemy", which uses combinations of parts to create new objects. We took the same idea and used it with the theme of baking; adding different ingredients to create a recipe, making a baked good product. You can buy ingredients with points, which you can earn by making new baked items. You can exchange ingredients with your friends and can check your leaderboard status based on point balance.
+
+My ML project is based on Eun's project, which is a college information site. The project adds a GPA predictor with the input of a user's SAT score. This shows different academic standards and howtheir correlate with each other, both of which are used in college applications.
+
 ## Collections
 
 This is out SQLite database with initiating the users, and users.py showing the users and their respective schema details, expressed in the database. 
@@ -47,7 +53,7 @@ Edits the user information ex. change username
 
 ### DELETE
 
-Deletes user (admin only) and removes frmo database
+Deletes user (admin only) and removes from database
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230555176100954215/image.png?ex=6633bed0&is=662149d0&hm=ea3547c0b59bfe5407523e7e25dcb0acf76fd01c2dd509e6a58e273f8460b30e&">
 
@@ -76,6 +82,7 @@ Deletes user (admin only) and removes frmo database
 ## Frontend
 
 GET, UPDATE, and POST with JSON responses
+This shows the inventory and the changes with the shop.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230880307906084895/image.png?ex=6634ed9e&is=6622789e&hm=949a4af988a30c0159f5f190277a5d2dd69cc57ee92b5b4afb8147fe228242a8&">
 
@@ -93,12 +100,21 @@ Fetch and Iteration
 
 POST Demo Success and Failure
 
+Recipe for a cookie added into sandbox/oven
+
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=6623cf55&is=66227dd5&hm=c481ec597825bc6b7d4d8c317f1f58fe013bc5bbc5e1edf355fa8c5d2a7321e9&">
+
+Results in oven shaking and "You made a cookie!" 
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885958044356670/image.png?ex=6634f2e1&is=66227de1&hm=1a5d072819f0d53f83d776ce7f765d1ce0e3ef5e2d16f48017c4149b6667b25d&">
 
+When a recipe does not exist in the database, there is an alert and a log in the console that says "failed: recipe does not exist"
+
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230887050602090558/image.png?ex=6634f3e5&is=66227ee5&hm=a04ec0219ef3f8142de95f073a41c415c6c6bfdf8b3e8d2d6a8de58194f8ce17&">
 
-## Algorithm Analysis
+## ML Project
+
+We defined 'predict' in the SATtoGPA model
+We used predict in the api, which is what the frontend fetches to. The model is referenced in the API, which uses the .csv dataset to output the correct prediction, converting it to a JSON string. The JSON string the frontend sends is with 'satscore' and uses 'prediction' to output the GPA. 
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=6623d244&is=662280c4&hm=153e382e938781b48d087da5d95021d01d62baa3dc3f85349cdfc1d9e7600dd0&">
