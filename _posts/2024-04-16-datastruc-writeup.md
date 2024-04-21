@@ -117,4 +117,6 @@ When a recipe does not exist in the database, there is an alert and a log in the
 We defined 'predict' in the SATtoGPA model
 We used predict in the api, which is what the frontend fetches to. The model is referenced in the API, which uses the .csv dataset to output the correct prediction, converting it to a JSON string. The JSON string the frontend sends is with 'satscore' and uses 'prediction' to output the GPA. 
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=6623d244&is=662280c4&hm=153e382e938781b48d087da5d95021d01d62baa3dc3f85349cdfc1d9e7600dd0&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=662523c4&is=6623d244&hm=b3e095a97bb807f5a22ce173ab286ac50f358cdf7bb40f6fc28c8b7c3f1861c0&">
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1231409344789352448/image.png?ex=6625b6d2&is=66246552&hm=1c9da04905939498c5f7b85c2065d6503ea9668c083e1824c0a19340e8feec46&">
