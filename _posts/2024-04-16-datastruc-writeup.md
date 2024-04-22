@@ -94,7 +94,7 @@ GET with formatted data
 
 Fetch and Iteration
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885357801963573/image.png?ex=6623ced2&is=66227d52&hm=ee908c2ae75833f818d189f2dc099955686519e3aa8660ced7ad4d0458b9b51e&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885357801963573/image.png?ex=662671d2&is=66252052&hm=26820a62c3559b2bcc95fbd4a3da8815694972688dd85e2cf47ba5639194baf1&">
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230884790115373126/image.png?ex=6634f1ca&is=66227cca&hm=c8d1a72cab957e69e74dad748c7ca9837afe342b659614643531d664373bd883&">
 
@@ -102,7 +102,7 @@ POST Demo Success and Failure
 
 Recipe for a cookie added into sandbox/oven
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=6623cf55&is=66227dd5&hm=c481ec597825bc6b7d4d8c317f1f58fe013bc5bbc5e1edf355fa8c5d2a7321e9&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=66267255&is=662520d5&hm=e2985cadc2a15ce6a534c652fb9e21c00720528555e437d135e7a7d13c239fa5&">
 
 Results in oven shaking and "You made a cookie!" 
 
