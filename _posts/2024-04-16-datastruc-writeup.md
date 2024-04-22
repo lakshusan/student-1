@@ -29,6 +29,12 @@ This is the GET function which retrieves the user information with the prompt on
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230552981091651624/image.png?ex=6633bcc5&is=662147c5&hm=11202b1b227ba7a74f29a576871f045a8eaa0e1ca503394bfaf6746ee96a493d&">
 
+This is running a post function in the debugger, and I keep going until I get to the user information, where it is shown in the sidebar.
+
+<img  src="https://cdn.discordapp.com/attachments/796087225535168512/1232030235265077248/image.png?ex=6627f912&is=6626a792&hm=30cccbf4e87751d4560f16f9dab97352084371b7ce8bffd7b38dd2701bde8a54&">
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1232042379611996160/image.png?ex=66280461&is=6626b2e1&hm=a8e8d8ff656b9526e14b77f14015c3629f6f9d673cb70533e922294ee9350c05&">
+
 ## API and JSON
 
 These are the CRUD functions in the API that use JSON input to get a certain output.
@@ -94,7 +100,7 @@ GET with formatted data
 
 Fetch and Iteration
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885357801963573/image.png?ex=662671d2&is=66252052&hm=26820a62c3559b2bcc95fbd4a3da8815694972688dd85e2cf47ba5639194baf1&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230727787455971359/image.png?ex=6627d952&is=662687d2&hm=39828870085b0a05ac30c4b365eaaaddd2f2c137dc8354d9d43099deb411c1d5&">
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230884790115373126/image.png?ex=6634f1ca&is=66227cca&hm=c8d1a72cab957e69e74dad748c7ca9837afe342b659614643531d664373bd883&">
 
@@ -102,7 +108,7 @@ POST Demo Success and Failure
 
 Recipe for a cookie added into sandbox/oven
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=66267255&is=662520d5&hm=e2985cadc2a15ce6a534c652fb9e21c00720528555e437d135e7a7d13c239fa5&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=6627c3d5&is=66267255&hm=0b1f7b31e67103a74b597efbebf0b16a2f1c704de7ab74769c7168111fd60eae&">
 
 Results in oven shaking and "You made a cookie!" 
 
@@ -117,6 +123,6 @@ When a recipe does not exist in the database, there is an alert and a log in the
 We defined 'predict' in the SATtoGPA model
 We used predict in the api, which is what the frontend fetches to. The model is referenced in the API, which uses the .csv dataset to output the correct prediction, converting it to a JSON string. The JSON string the frontend sends is with 'satscore' and uses 'prediction' to output the GPA. 
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=66267544&is=662523c4&hm=9142d5e08bd912c3f2997206c7a72881dbab92fc28c934ac00b650fe7bbcf764&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1231409344789352448/image.png?ex=6627b112&is=66265f92&hm=7b90ee6820d20dcaaa5a39e5858ba243f999ac845d707371898e28397de1280a&">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1231409344789352448/image.png?ex=6625b6d2&is=66246552&hm=1c9da04905939498c5f7b85c2065d6503ea9668c083e1824c0a19340e8feec46&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=6627c6c4&is=66267544&hm=ec79f3fa0d439e53b32a17db2a9890240b243ab815eae7940c4b44daec09e281&">
