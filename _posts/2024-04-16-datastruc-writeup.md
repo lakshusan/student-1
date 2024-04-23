@@ -16,7 +16,7 @@ My ML project is based on Eun's project, which is a college information site. Th
 
 ## Collections
 
-This is out SQLite database with initiating the users, and users.py showing the users and their respective schema details, expressed in the database. 
+This is out SQLite database with initiating the users, and users.py showing the users and their respective schema details, expressed in the database. We include schema such as name, user id, password, inventory, date of birth, favorite food, points, and role. The user's information in these columns change along with their actions in the game.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230551541367439522/image.png?ex=6633bb6e&is=6621466e&hm=10fb05e0e39b0f343ed370a942b0561985ef7b73965a6db0280859ff38c5b371&">
 
@@ -29,11 +29,11 @@ This is the GET function which retrieves the user information with the prompt on
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230552981091651624/image.png?ex=6633bcc5&is=662147c5&hm=11202b1b227ba7a74f29a576871f045a8eaa0e1ca503394bfaf6746ee96a493d&">
 
-This is running a post function in the debugger, and I keep going until I get to the user information, where it is shown in the sidebar.
+This is running a post function in the debugger, and I keep going until I get to the user information, where it is shown in the sidebar. The first capture shows the user 'flay' and the information connected to it. The second one shows the number of users that have a login with the game.
 
 <img  src="https://cdn.discordapp.com/attachments/796087225535168512/1232030235265077248/image.png?ex=6627f912&is=6626a792&hm=30cccbf4e87751d4560f16f9dab97352084371b7ce8bffd7b38dd2701bde8a54&">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1232042379611996160/image.png?ex=66280461&is=6626b2e1&hm=a8e8d8ff656b9526e14b77f14015c3629f6f9d673cb70533e922294ee9350c05&">
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1232042379611996160/image.png?ex=662955e1&is=66280461&hm=1a5ad64e1def5c0364ab4dbf1cac12adc49aaa8c55007c727871bc0559f26fbd&">
 
 ## API and JSON
 
@@ -41,7 +41,7 @@ These are the CRUD functions in the API that use JSON input to get a certain out
 
 ### POST
 
-Adds user to database
+Adds user to database, increases 'len' for number of users and adds basic information (including basic ingredients and starting point value)
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230554361369722940/image.png?ex=6633be0e&is=6621490e&hm=b12fc93dd1067bc8d9dd4ada4e81ba5286b40cb82a83768ad3f331799c8f5333&">
 
@@ -53,7 +53,7 @@ Retrieves user information from the database, output in JSON
 
 ### PUT
 
-Edits the user information ex. change username
+Edits the user information ex. change username.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230554721035751575/image.png?ex=6633be64&is=66214964&hm=fafe50445d0f3af1cc8813dc35749f00dcf6a5772ddf11a63f971827ddc208f9&">
 
@@ -67,15 +67,21 @@ Deletes user (admin only) and removes from database
 
 ### POST
 
+This creates a user called 'test' appends it to the database user list.
+
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230555967507271733/image.png?ex=6633bf8d&is=66214a8d&hm=25db3969aad1a52fb547e62eea23104468e96e6957f742775f7f89ed24ee8366&">
 
 ### GET
+
+This outputs all the user information that is listed in the database, specific to the user requested.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230556142833504326/image.png?ex=6633bfb7&is=66214ab7&hm=d508c3fb7bbd7fb91a7f6dcdd8faf672fc3527193bc792f36cebf8c6843d135b&">
 
 ### PUT
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230558795038589118/image.png?ex=6633c22f&is=66214d2f&hm=c68f069ca9dc18e5e908a87496a6e0a409ebba38203407bfc3719254e95ef09c&">
+This example edits the user info to chenge the point value in the database.
+
+<img src="https://cdn.discordapp.com/attachments/796087225535168512/1232047287895855155/image.png?ex=662808f3&is=6626b773&hm=86759134f7ff55677d540c9bf541be6b65278aaa27963a358583efdc99970859&">
 
 ### 400 POST
 
