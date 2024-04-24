@@ -31,9 +31,9 @@ This is the GET function which retrieves the user information with the prompt on
 
 This is running a post function in the debugger, and I keep going until I get to the user information, where it is shown in the sidebar. The first capture shows the user 'flay' and the information connected to it. The second one shows the number of users that have a login with the game.
 
-<img  src="https://cdn.discordapp.com/attachments/796087225535168512/1232030235265077248/image.png?ex=6627f912&is=6626a792&hm=30cccbf4e87751d4560f16f9dab97352084371b7ce8bffd7b38dd2701bde8a54&">
+<img  src="https://i.ibb.co/YNb9s54/image.webp">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1232042379611996160/image.png?ex=662955e1&is=66280461&hm=1a5ad64e1def5c0364ab4dbf1cac12adc49aaa8c55007c727871bc0559f26fbd&">
+<img src="https://i.ibb.co/ZgczFQc/image.webp">
 
 ## API and JSON
 
@@ -81,7 +81,7 @@ This outputs all the user information that is listed in the database, specific t
 
 This example edits the user info to chenge the point value in the database.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1232047287895855155/image.png?ex=662808f3&is=6626b773&hm=86759134f7ff55677d540c9bf541be6b65278aaa27963a358583efdc99970859&">
+<img src="https://i.ibb.co/ZM6zNT2/image.webp">
 
 ### 400 POST
 
@@ -111,7 +111,7 @@ Fetch and Iteration
 
 This fetches to out 8028 backend port with all the data and gets the information from the element it requests.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230727787455971359/image.png?ex=6627d952&is=662687d2&hm=39828870085b0a05ac30c4b365eaaaddd2f2c137dc8354d9d43099deb411c1d5&">
+<img src="https://i.ibb.co/KLh48WM/image.webp">
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230884790115373126/image.png?ex=6634f1ca&is=66227cca&hm=c8d1a72cab957e69e74dad748c7ca9837afe342b659614643531d664373bd883&">
 
@@ -121,7 +121,7 @@ Recipe for a cookie added into sandbox/oven
 
 If the recipe matches one listed in the backend 'bakings' database, then the baking function will go through and show you the baked good you made.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=6627c3d5&is=66267255&hm=0b1f7b31e67103a74b597efbebf0b16a2f1c704de7ab74769c7168111fd60eae&">
+<img src="https://i.ibb.co/0XK1SQN/image.webp">
 
 Results in oven shaking and "You made a cookie!" 
 
@@ -140,6 +140,6 @@ We used predict in the api, which is what the frontend fetches to. The model is 
 
 This uses the RandomForestRegressor to predict the scores based on a given dataset. The dataset does not include all the values, so the algorithm allows the program to provide an accurate prediction. It takes different branches from 2 sides of the input, and gives a prediction that branches in from the other values.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1231409344789352448/image.png?ex=6627b112&is=66265f92&hm=7b90ee6820d20dcaaa5a39e5858ba243f999ac845d707371898e28397de1280a&">
+<img src="https://i.ibb.co/bdqDr9s/image.webp">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230889058138587147/image.png?ex=6627c6c4&is=66267544&hm=ec79f3fa0d439e53b32a17db2a9890240b243ab815eae7940c4b44daec09e281&">
+<img src="https://i.ibb.co/sVWJtYc/image.webp">
