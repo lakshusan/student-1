@@ -94,7 +94,8 @@ This example edits the user info to chenge the point value in the database.
 ## Frontend
 
 GET, UPDATE, and POST with JSON responses
-This shows the inventory and the changes with the shop.
+
+This shows the inventory and the changes with the shop. If a button in the shop is clicked, it sends the request to the backend, and if you have enough points, it will append the item to the end of your inventory and tell you the item you bought.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230880307906084895/image.png?ex=6634ed9e&is=6622789e&hm=949a4af988a30c0159f5f190277a5d2dd69cc57ee92b5b4afb8147fe228242a8&">
 
@@ -102,9 +103,13 @@ This shows the inventory and the changes with the shop.
 
 GET with formatted data
 
+This is the leaderboard, where you can compete with other users to gain the most number of points by making baked goods. The more items you make, the more points you earn, and the higher you get on the leaderboard.
+
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230883590536040478/image.png?ex=6634f0ac&is=66227bac&hm=46aefde22a7dde5bf7d21ac130234c016500383ed6b5956a58329408b1bc268d&">
 
 Fetch and Iteration
+
+This fetches to out 8028 backend port with all the data and gets the information from the element it requests.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230727787455971359/image.png?ex=6627d952&is=662687d2&hm=39828870085b0a05ac30c4b365eaaaddd2f2c137dc8354d9d43099deb411c1d5&">
 
@@ -114,9 +119,13 @@ POST Demo Success and Failure
 
 Recipe for a cookie added into sandbox/oven
 
+If the recipe matches one listed in the backend 'bakings' database, then the baking function will go through and show you the baked good you made.
+
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885908270682202/image.png?ex=6627c3d5&is=66267255&hm=0b1f7b31e67103a74b597efbebf0b16a2f1c704de7ab74769c7168111fd60eae&">
 
 Results in oven shaking and "You made a cookie!" 
+
+This particular recipe matched with that of a cookie, so the cookie will be added to the user's inventory.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885958044356670/image.png?ex=6634f2e1&is=66227de1&hm=1a5d072819f0d53f83d776ce7f765d1ce0e3ef5e2d16f48017c4149b6667b25d&">
 
@@ -129,7 +138,7 @@ When a recipe does not exist in the database, there is an alert and a log in the
 We defined 'predict' in the SATtoGPA model
 We used predict in the api, which is what the frontend fetches to. The model is referenced in the API, which uses the .csv dataset to output the correct prediction, converting it to a JSON string. The JSON string the frontend sends is with 'satscore' and uses 'prediction' to output the GPA. 
 
-This uses the Linear Regression Algorithms to predict the scores based on a given dataset. The dataset does not include all the values, so the algorithm allows the program to provide an accurate prediction.
+This uses the RandomForestRegressor to predict the scores based on a given dataset. The dataset does not include all the values, so the algorithm allows the program to provide an accurate prediction. It takes different branches from 2 sides of the input, and gives a prediction that branches in from the other values.
 
 <img src="https://cdn.discordapp.com/attachments/796087225535168512/1231409344789352448/image.png?ex=6627b112&is=66265f92&hm=7b90ee6820d20dcaaa5a39e5858ba243f999ac845d707371898e28397de1280a&">
 
