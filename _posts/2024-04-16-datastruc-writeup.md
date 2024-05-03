@@ -85,11 +85,11 @@ This example edits the user info to chenge the point value in the database.
 
 ### 400 POST
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230557838208663652/image.png?ex=6633c14b&is=66214c4b&hm=370f9c16dcb69d167f279a386da21dfa1df7a14727e1648c4dac5be886f5fe8e&">
+<img src="https://i.ibb.co/S5tvgFp/image.webp">
 
 ### 404 PUT
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230559006758801438/image.png?ex=6633c261&is=66214d61&hm=8b2ec8ea0b8d563401d7928d8611d72c2697055f8f2b56760a7fdfcb0e54cc02&">
+<img src="https://i.ibb.co/D5Cvc28/image.webp">
 
 ## Frontend
 
@@ -105,7 +105,7 @@ GET with formatted data
 
 This is the leaderboard, where you can compete with other users to gain the most number of points by making baked goods. The more items you make, the more points you earn, and the higher you get on the leaderboard.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230883590536040478/image.png?ex=6634f0ac&is=66227bac&hm=46aefde22a7dde5bf7d21ac130234c016500383ed6b5956a58329408b1bc268d&">
+<img src="https://i.ibb.co/wQW9Zmy/image.webp">
 
 Fetch and Iteration
 
