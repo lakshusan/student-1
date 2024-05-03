@@ -18,16 +18,16 @@ My ML project is based on Eun's project, which is a college information site. Th
 
 This is out SQLite database with initiating the users, and users.py showing the users and their respective schema details, expressed in the database. We include schema such as name, user id, password, inventory, date of birth, favorite food, points, and role. The user's information in these columns change along with their actions in the game.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230551541367439522/image.png?ex=6633bb6e&is=6621466e&hm=10fb05e0e39b0f343ed370a942b0561985ef7b73965a6db0280859ff38c5b371&">
+<img src="https://i.ibb.co/kgmspfr/image.webp">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230551830572961842/image.png?ex=6633bbb2&is=662146b2&hm=183bd38a1adc7c8151faf74f921a00424869abd08d76a48cb10b4ae74974d75d&">
+<img src="https://i.ibb.co/hY8vNg3/image.webp">
 
 
 ## Lists and Dictionaries
 
 This is the GET function which retrieves the user information with the prompt on user login, using the username and password. It will return user data like their point balance, their inventory, and more.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230552981091651624/image.png?ex=6633bcc5&is=662147c5&hm=11202b1b227ba7a74f29a576871f045a8eaa0e1ca503394bfaf6746ee96a493d&">
+<img src="https://i.ibb.co/VLYShTK/image.webp">
 
 This is running a post function in the debugger, and I keep going until I get to the user information, where it is shown in the sidebar. The first capture shows the user 'flay' and the information connected to it. The second one shows the number of users that have a login with the game.
 
@@ -43,7 +43,7 @@ These are the CRUD functions in the API that use JSON input to get a certain out
 
 Adds user to database, increases 'len' for number of users and adds basic information (including basic ingredients and starting point value)
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230554361369722940/image.png?ex=6633be0e&is=6621490e&hm=b12fc93dd1067bc8d9dd4ada4e81ba5286b40cb82a83768ad3f331799c8f5333&">
+<img src="https://i.ibb.co/GtQYdCN/image.webp">
 
 ### GET
 
@@ -55,7 +55,7 @@ Retrieves user information from the database, output in JSON
 
 Edits the user information ex. change username.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230554721035751575/image.png?ex=6633be64&is=66214964&hm=fafe50445d0f3af1cc8813dc35749f00dcf6a5772ddf11a63f971827ddc208f9&">
+<img src="https://i.ibb.co/Sm52sqD/image.webp">
 
 ### DELETE
 
@@ -69,13 +69,13 @@ Deletes user (admin only) and removes from database
 
 This creates a user called 'test' appends it to the database user list.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230555967507271733/image.png?ex=6633bf8d&is=66214a8d&hm=25db3969aad1a52fb547e62eea23104468e96e6957f742775f7f89ed24ee8366&">
+<img src="https://i.ibb.co/qWKSRbx/image.webp">
 
 ### GET
 
 This outputs all the user information that is listed in the database, specific to the user requested.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230556142833504326/image.png?ex=6633bfb7&is=66214ab7&hm=d508c3fb7bbd7fb91a7f6dcdd8faf672fc3527193bc792f36cebf8c6843d135b&">
+<img src="https://i.ibb.co/PQvr15B/image.webp">
 
 ### PUT
 
