@@ -49,7 +49,7 @@ Adds user to database, increases 'len' for number of users and adds basic inform
 
 Retrieves user information from the database, output in JSON
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230552981091651624/image.png?ex=6633bcc5&is=662147c5&hm=11202b1b227ba7a74f29a576871f045a8eaa0e1ca503394bfaf6746ee96a493d&">
+<img src="https://i.ibb.co/VLYShTK/image.webp">
 
 ### PUT
 
@@ -61,7 +61,7 @@ Edits the user information ex. change username.
 
 Deletes user (admin only) and removes from database
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230555176100954215/image.png?ex=6633bed0&is=662149d0&hm=ea3547c0b59bfe5407523e7e25dcb0acf76fd01c2dd509e6a58e273f8460b30e&">
+<img src="https://i.ibb.co/C0Ny9FH/image.webp">
 
 ## Postman
 
