@@ -97,9 +97,9 @@ GET, UPDATE, and POST with JSON responses
 
 This shows the inventory and the changes with the shop. If a button in the shop is clicked, it sends the request to the backend, and if you have enough points, it will append the item to the end of your inventory and tell you the item you bought.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230880307906084895/image.png?ex=6634ed9e&is=6622789e&hm=949a4af988a30c0159f5f190277a5d2dd69cc57ee92b5b4afb8147fe228242a8&">
+<img src="https://i.ibb.co/ph57cD2/image.webp">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230880478303621120/image.png?ex=6634edc6&is=662278c6&hm=68d62e3cf5169235b46e19c5dd1f875cff5fba158696926a8cc4656590fc7530&">
+<img src="https://i.ibb.co/Fb4703r/image.png">
 
 GET with formatted data
 
@@ -113,7 +113,7 @@ This fetches to out 8028 backend port with all the data and gets the information
 
 <img src="https://i.ibb.co/KLh48WM/image.webp">
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230884790115373126/image.png?ex=6634f1ca&is=66227cca&hm=c8d1a72cab957e69e74dad748c7ca9837afe342b659614643531d664373bd883&">
+<img src="https://i.ibb.co/3SznKyn/image.webp">
 
 POST Demo Success and Failure
 
@@ -127,11 +127,11 @@ Results in oven shaking and "You made a cookie!"
 
 This particular recipe matched with that of a cookie, so the cookie will be added to the user's inventory.
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230885958044356670/image.png?ex=6634f2e1&is=66227de1&hm=1a5d072819f0d53f83d776ce7f765d1ce0e3ef5e2d16f48017c4149b6667b25d&">
+<img src="https://i.ibb.co/ZcSVpwv/image.webp">
 
 When a recipe does not exist in the database, there is an alert and a log in the console that says "failed: recipe does not exist"
 
-<img src="https://cdn.discordapp.com/attachments/796087225535168512/1230887050602090558/image.png?ex=6634f3e5&is=66227ee5&hm=a04ec0219ef3f8142de95f073a41c415c6c6bfdf8b3e8d2d6a8de58194f8ce17&">
+<img src="https://i.ibb.co/jb07z8H/image.webp">
 
 ## ML Project
 
