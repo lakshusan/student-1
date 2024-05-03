@@ -79,7 +79,7 @@ This outputs all the user information that is listed in the database, specific t
 
 ### PUT
 
-This example edits the user info to chenge the point value in the database.
+This example edits the user info to change the point value in the database.
 
 <img src="https://i.ibb.co/ZM6zNT2/image.webp">
 
@@ -105,7 +105,7 @@ GET with formatted data
 
 This is the leaderboard, where you can compete with other users to gain the most number of points by making baked goods. The more items you make, the more points you earn, and the higher you get on the leaderboard.
 
-<img src="https://i.ibb.co/wQW9Zmy/image.webp">
+<img src="https://i.ibb.co/0J721s1/image.webp">
 
 Fetch and Iteration
 
