@@ -9,15 +9,13 @@ courses: { compsci: {week: 32} }
 ---
 
 # Purpose
-- We can use the algorithm to set up certain point benchmarks
-For example, when a player hits 50 points, we can give them an alert that says they have earned a title. The next benchmark can be for when they have at least 75 points, then 100.
+- We can use the algorithms to reverse the pupose of the previous Data Structures Poject code.
 
-- We can set them up in increments
-Set the beginning point value to 15, and each time they create a baked good that earns enough points to reach the next benchmark, they have a popup that appears.
+Instead of converting SAT Score to a GPA, we can instead convert GPA to possible SAT Score.
 
-15 points = Beginner
-25 points = Rookie
-45 points = Learner
-65 points = Top Class
-75 points = Master
-100 points = Professional
+We will use a different database with the RandomForestRegressor to adapt and produce predictions. We will instead have to use a float instead of integer format for the input, which is because th GPA will be entered to the nearest hundredth instead of a whole number. 
+
+# Incorporating Lists
+- We can add a mechanism that saves the predicted score to the user's attributes as a list.
+
+There will be an additional column on the user's information that saves the predicted score output in a column titled "scores".
