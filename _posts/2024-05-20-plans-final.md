@@ -62,3 +62,7 @@ To display the max value, this shows the iteration through each of the converted
 - [Frontend Commit, Sorting](https://github.com/lakshusan/lmc-front2/commit/57cc27762c9b70fe126617ac0b1604fad6565823)
 - [Database Update](https://github.com/lakshusan/lmc-back2/commit/6a6107f1ca416f2eebdeaf16d187ea625e5c91bd)
 - [Regressor Model](https://github.com/lakshusan/lmc-back2/commit/9e9bdedf14fe6eee6e041f95b9a8fb8d1c1a4465)
+
+# Reflection
+
+These projects have allowed me to grow myself into a capable full stack developer, through using various front and backend methods to fulfill program purposes. I have learned to use CRUD, Machine Learning, Algorithms, Binary, and more. The backend language I use is python. My projects include my CPT warmup and official projects, with binary and different backend requests. Despite this being my first year and having difficulties with groups, I have learned to deal with many different types of situations that makes me a capable worker.
