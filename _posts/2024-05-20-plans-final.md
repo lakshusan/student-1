@@ -51,8 +51,14 @@ This shows the predicted scores individually in the console as it hits this brea
 
 <img src="https://i.ibb.co/Q85zWzh/image.png">
 
-To display the max value, this shows the interation through each of the converted SAT scores, and in the end it outputs the actual maximum value.
+To display the max value, this shows the iteration through each of the converted SAT scores, and in the end, it outputs the actual maximum value.
 
 <img src="https://i.ibb.co/xqFVgXm/image.png">
 
 <img src="https://i.ibb.co/DQwTwpj/image.png">
+
+# Key Commits
+
+- [Frontend Commit, Sorting](https://github.com/lakshusan/lmc-front2/commit/57cc27762c9b70fe126617ac0b1604fad6565823)
+- [Database Update](https://github.com/lakshusan/lmc-back2/commit/6a6107f1ca416f2eebdeaf16d187ea625e5c91bd)
+- [Regressor Model](https://github.com/lakshusan/lmc-back2/commit/9e9bdedf14fe6eee6e041f95b9a8fb8d1c1a4465)
